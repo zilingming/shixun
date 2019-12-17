@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<title>首页-客户关系管理系统</title>
+	<link rel="stylesheet" type="text/css" href="../../resources/common/js/css/Contactadd.css" />
+	<script src="../../resources/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../resources/js/customer/Contactadd.js"></script>
+</head>
+
+<body>
+	<!-- 页头开始 -->
+	<script src="../../resources/js/common/header.js"></script>
+	<script src="../../resources/js/common/headerbar.js"></script>
+	<!-- 页头结束 -->
+	<!-- 左侧菜单导航开始 -->
+	<script src="../../resources/js/common/sidebar.js"></script>
+	<!-- 左侧菜单导航结束 -->
+	<!-- MAIN PANEL -->
+	<div id="main" role="main">
+		<!-- 路径导航开始 -->
+		<div id="ribbon">
+			<ol class="breadcrumb">
+				<li>联系人信息添加</li>
+			</ol>
+		</div>
+		<!-- 路径导航结束 -->
+		<div id="content">
+			<div>
+				<div class="top">
+					<img src="../../resources/img/lixiren.png" alt="">[没有获取到数据]联系人添加
+				</div>
+				<div class="banner">
+					<ul class="ul_one">
+						<li><span>*</span>姓名</li>
+						<li><span>*</span>性别</li>
+						<li><span>*</span>办公电话</li>
+						<li>手机</li>
+						<li>职位</li>
+						<li>备注</li>
+					</ul>
+					<ul class="ul_two">
+						<li><input name="text" id="name" type="text" style="width: 350px;height: 30px;" maxlength="30">
+						<span id="message"></span>
+						</li>
+						<li><input id="man" type="radio" checked="checked" name="1" style="height: 15px;width: 15px;"/>男 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<input id="woman" type="radio" style="height: 15px;width: 15px;" name="1" />女</li>
+						<li><input type="text" name="" id="bgdianhua" style="width: 350px;height: 30px;">
+							<span id="message_1"></span>
+						</li>
+						<li><input type="text" name="" id="shouji" style="width: 350px;height: 30px;" maxlength="11"></li>
+						<li><input type="text" name="" id="" style="width: 350px;height: 30px;"></li>
+						<li><input type="text" name="" id="" style="width: 350px;height: 30px;"></li>
+					</ul>
+				</div>
+				<div class="wei">
+					<a href="../../page/customer/Contact.html">
+						<input type="button" value="返回联系人列表"
+							style="width: 150px; height: 35px;background-color: rgb(255,255,255);">
+					</a>
+					<a href="#">
+							<label id="b1">
+						<input type="button" value="保存"  id="yes"  name="button"
+							style="width: 80px; height: 35px;background-color: rgb(255,121,1);"  >
+							</label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 包含footer，引入公用 JS -->
+	<script src="../../resources/js/common/footer.js"></script>
+</body>
+<script src="../../resources/bootstrap/js/bootstrap.min.js"></script>
+
+</html>
