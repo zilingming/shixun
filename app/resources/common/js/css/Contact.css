@@ -1,0 +1,55 @@
+.top {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(249, 249, 249);
+}
+.banner {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+.xingm {
+    color: seagreen;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+  }
+.wei {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(249, 249, 249);
+  text-align: right;
+  padding-top: 30px;
+}
+.wei input
+{
+   border: darkgray 1px solid;
+}
+.wei a
+{
+  text-decoration: none;
+}
+.wei a:hover
+{
+  color: green;
+}
+.all_one
+{
+     width:100%;
+     height: 200px;
+}
+.all_one th 
+{
+    height: 30px;
+    border: 1px solid  rgb(214,221,231);
+    text-align: center;
+}
+.all_one td
+{
+    border: 1px solid  rgb(214,221,231);
+    height: 30px;
+    text-align: center;
+} 
+
+

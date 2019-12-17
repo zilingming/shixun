@@ -1,0 +1,78 @@
+.top {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+  }
+  .banner {
+    height: 450px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+  }
+  .xingm {
+    color: seagreen;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+  }
+  .wei {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    text-align: right;
+    padding-top: 30px;
+  }
+  .wei a
+  {
+    text-decoration: none;
+  }
+  .wei a:hover
+  {
+    color: green;
+  }
+  .wei input
+  {
+     border: darkgray 1px solid;
+  }
+  .ul_one
+  {
+    float: left;
+    height:50%;
+    width: 400px;
+    list-style: none;
+    text-align: right;
+  }
+  .ul_one li
+  {
+    height: 75px;
+    width: 100%;
+  }
+  .ul_one span
+  {
+    font-size: 20px;
+    color: red;
+  }
+  .ul_two
+  {
+    float: left;
+    height: 50%;
+    width: 400px;
+    list-style: none;
+  }
+  .ul_two li
+  {
+    height: 75px;
+    width: 100%;
+  }
+  #message
+  {
+    color: red;
+    font-size: 12px;
+  }
+  #message_1
+  {
+    color: red;
+    font-size: 12px;
+  }
+  
+  
