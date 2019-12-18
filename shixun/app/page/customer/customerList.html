@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>首页-客户关系管理系统</title>
+   <link rel="stylesheet" type="text/css" href="../../resources/common/js/css/customerList.css"/>
+    <script src="../../resources/js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../resources/js/customer/customerList.js"></script>
+</head>
+
+<body>
+    <!-- 页头开始 -->
+    <script src="../../resources/js/common/header.js"></script>
+    <script src="../../resources/js/common/headerbar.js"></script>
+    <!-- 页头结束 -->
+    <!-- 左侧菜单导航开始 -->
+    <script src="../../resources/js/common/sidebar.js"></script>
+    <!-- 左侧菜单导航结束 -->
+    <!-- MAIN PANEL -->
+    <div id="main" role="main">
+        <!-- 路径导航开始 -->
+        <div id="ribbon">
+            <ol class="breadcrumb">
+                <li>客户列表</li>
+            </ol>
+        </div>
+        <!-- 路径导航结束 -->
+        <div id="content">
+            <div class="all">
+                <div class="top">
+                    <img src="../../resources/img/chaxunxinxi.png" alt="">
+                    <span>查询信息</span>
+                </div>
+                <div class="banner">
+                    <ul>
+                        <li><span>客户名称&nbsp;</span><input type="text" name="" id=""></li>
+                        <li><span>客户地区&nbsp;</span><input type="text" name="" id=""></li>
+                        <li><span>客户经理</span>
+                            <select id="" style="height: 35px; width: 450px;">
+                                <option>全部</option>
+                                <option>白晶理</option>
+                                <option>张是是</option>
+                            </select>
+                        </li>
+                        <li><span>客户等级</span>
+                            <select id="" style="height: 35px; width: 450px;">
+                                <option>全部</option>
+                                <option>战略合作伙伴</option>
+                                <option>重点开发客户</option>
+                                <option>合作伙伴</option>
+                                <option>普通客户</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bouttom">
+                    <a href="#"> <input type="button" value="查询" id=""></a>
+                    <a href="../../page/customer/increase.html"><input type="button" value="添加" id=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="all_one">
+
+            <table>
+                <tr>
+                    <th colspan="7"
+                        style="background:  rgb(64,64,64); text-align: left; color: white; font-size: 17px;">
+                        <img src="../../resources/img/liexiaoxinxi.png" alt="">
+                        <span>列表信息</span>
+                    </th>
+                </tr>
+                <tr>
+                    <th style="width: 50px;">序号</th>
+                    <th style="width: 140px;">客户名称</th>
+                    <th style="width: 140px;">客户地区</th>
+                    <th style="width: 140px;">客户经理</th>
+                    <th style="width: 180px;">客户等级</th>
+                    <th style="width: 180px;">客户电话</th>
+                    <th style="width: 310px;">操作</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>大连东软学院</td>
+                    <td>大连</td>
+                    <td>白晶理</td>
+                    <td>战略合作伙伴</td>
+                    <td>13578900987</td>
+                    <td>
+                        <a href="../../page/customer/Contact.html"><img src="../../resources/img/lianxiren.png" alt=""
+                                style="width:23px;height:23px"></a>
+                        <a href="../../page/customer/Intercourse.html"><img src="../../resources/img/jiaowang.png" alt=""
+                                style="width:23px;height:23px"></a>
+                        <a href="../../page/customer/Order.html"><img src="../../resources/img/dingdan.png" alt=""
+                                style="width:23px;height:23px"></a>
+                        <a href="../../page/customer/modify.html"><img src="../../resources/img/xiugai.png" alt=""
+                                style="width:23px;height:23px"></a>
+                        <a href="../../page/customer/View.html"><img src="../../resources/img/sousuo.png" alt=""
+                                style="width:23px;height:23px"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7">显示第1到第n条记录，总共n条记录</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- 包含footer，引入公用 JS -->
+    <script src="../../resources/js/common/footer.js"></script>
+</body>
+<script src="../../resources/bootstrap/js/bootstrap.min.js"></script>
+
+</html>

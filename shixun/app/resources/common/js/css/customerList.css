@@ -1,0 +1,82 @@
+
+.all
+{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(249, 249, 249);
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-left: -20px;
+}
+.top
+{
+    height: 30px;
+    width:100%;
+    background-color: rgb(249, 249, 249);
+}
+.top img
+{
+    height: 30px;
+    width:30px;
+}
+.banner
+{
+    background:  rgb(250,250,250);
+    height: 100px;
+    width:100%;
+    background: snow;
+}
+.banner li
+{
+    list-style: none;
+    height: 40px;
+    width:550px;
+    font-size: 15px;
+    float: left;
+    margin: 5px;
+}
+.banner input 
+{
+    height: 35px;
+    width: 450px;
+}
+.bouttom
+{
+    height:90px;
+    width:100%;
+    text-align: right;
+    padding-right: 90px;
+}
+.bouttom input
+{
+    background: rgb(245,124,9); 
+    border: 1px solid  rgb(249,249,249);
+    font-size: 15px;
+    height: 25px;
+    width: 70px;
+}
+.bouttom a
+{
+    text-decoration: none;
+}
+.bouttom a:hover
+{
+    color:white;
+}
+.all_one
+{
+     width:100%;
+     height: 200px;
+}
+.all_one th 
+{
+    height: 30px;
+    border: 1px solid  rgb(214,221,231);
+    text-align: center;
+}
+.all_one td
+{
+    border: 1px solid  rgb(214,221,231);
+    height: 30px;
+    text-align: center;
+} 

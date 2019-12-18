@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<title>首页-客户关系管理系统</title>
+	<link rel="stylesheet" type="text/css" href="../../resources/common/js/css/Contact.css" />
+	<script src="../../resources/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../../resources/js/customer/Contact.js"></script>
+	<link rel="stylesheet" href="../../resources/common/js/bootstrap/bootstrap.min.js" />
+</head>
+
+<body>
+	<!-- 页头开始 -->
+	<script src="../../resources/js/common/header.js"></script>
+	<script src="../../resources/js/common/headerbar.js"></script>
+	<!-- 页头结束 -->
+	<!-- 左侧菜单导航开始 -->
+	<script src="../../resources/js/common/sidebar.js"></script>
+	<!-- 左侧菜单导航结束 -->
+	<!-- MAIN PANEL -->
+	<div id="main" role="main">
+		<!-- 路径导航开始 -->
+		<div id="ribbon">
+			<ol class="breadcrumb">
+				<li>联系人</li>
+			</ol>
+		</div>
+		<!-- 路径导航结束 -->
+		<div id="content">
+			<div>
+				<div class="top">
+					<img src="../../resources/img/lixiren.png" alt="">查询信息
+				</div>
+				<div class="banner">
+					<span class="xingm">姓名</span>
+					<input type="text" name="" id="" style="width: 800px; height: 40px;">
+				</div>
+				<div class="wei">
+					<a href="../../page/customer/customerList.html">
+						<input type="button" value="返回客服列表"
+							style="width: 150px; height: 35px;background-color: rgb(255,255,255);">
+					</a>
+					<a href="#">
+						<input type="button" value="查询"
+							style="width: 80px; height: 35px;background-color: rgb(255,121,1);">
+					</a>
+					<a href="../../page/customer/Contactadd.html">
+						<input type="button" value="添加"
+							style="width: 80px; height: 35px;background-color: rgb(255,121,1);">
+					</a>
+				</div>
+			</div>
+
+			<div class="all_one">
+
+				<table>
+					<tr>
+						<th colspan="8"
+							style="background:  rgb(64,64,64); text-align: left; color: white; font-size: 17px;">
+							<img src="../../resources/img/liexiaoxinxi.png" alt="">
+							<span>123456</span>
+						</th>
+					</tr>
+					<tr>
+						<th style="width: 50px;">序号</th>
+						<th style="width: 140px;">姓名</th>
+						<th style="width: 140px;">性别</th>
+						<th style="width: 140px;">办公电话</th>
+						<th style="width: 180px;">手机</th>
+						<th style="width: 180px;">职位</th>
+						<th style="width: 310px;">备注</th>
+						<th style="width: 310px;">操作</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>李士娣</td>
+						<td>女</td>
+						<td>88888881</td>
+						<td>13567890981</td>
+						<td></td>
+						<td></td>
+						<td>
+							<a href="../../page/customer/Contactmodification.html"><img src="../../resources/img/xiugai.png" alt=""
+									style="width:23px;height:23px"></a>
+							<a href="#"><img src="../../resources/img/shanchu.png" alt=""
+									style="width:23px;height:23px"></a>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="8" style="text-align: left;">显示第1到第n条记录，总共n条记录</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!-- 包含footer，引入公用 JS -->
+	<script src="../../resources/js/common/footer.js"></script>
+</body>
+<script src="../../resources/bootstrap/js/bootstrap.min.js"></script>
+
+</html>
